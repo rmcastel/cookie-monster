@@ -1,0 +1,2988 @@
+{
+  "data": {
+    "public": {
+      "sourceForStore": {
+        "maximumSingleOrderSize": 1000000,
+        "sourceId": "3d7e79b0-45da-11ee-87e7-e1a31673ee48:Source",
+        "storeId": "55b99a60-2eec-11ed-912f-4f423fb8f3d0:Store",
+        "type": "CARRY_OUT",
+        "allowedDaysToOrder": [
+          "2026-03-27T05:00:00+00:00",
+          "2026-03-28T05:00:00+00:00",
+          "2026-03-30T05:00:00+00:00",
+          "2026-03-31T05:00:00+00:00",
+          "2026-04-01T05:00:00+00:00",
+          "2026-04-02T05:00:00+00:00",
+          "2026-04-03T05:00:00+00:00",
+          "2026-04-04T05:00:00+00:00",
+          "2026-04-06T05:00:00+00:00",
+          "2026-04-07T05:00:00+00:00",
+          "2026-04-08T05:00:00+00:00",
+          "2026-04-09T05:00:00+00:00",
+          "2026-04-10T05:00:00+00:00",
+          "2026-04-11T05:00:00+00:00"
+        ],
+        "fulfillmentTimeAdjustmentThreshold": 20000,
+        "productSummary": {
+          "modifiers": [
+            {
+              "modifierId": "8195abc0-6ac6-11ea-b02b-8db36db3e6c4:ProductModifier",
+              "modifier": {
+                "modifierId": "8195abc0-6ac6-11ea-b02b-8db36db3e6c4:ProductModifier",
+                "name": "Cookie Flavors - Single",
+                "description": null,
+                "image": null,
+                "maxSelection": 1,
+                "minSelection": 1,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": null,
+                "specialType": "COOKIEFLAVOR",
+                "specialSubtypes": [
+                  "LARGE",
+                  "CALENDAR",
+                  "COOKIE",
+                  "ALLOWS_OPTION_OVERRIDES"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+              "modifier": {
+                "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                "name": "Gifting (Sticker)",
+                "description": null,
+                "image": null,
+                "maxSelection": 1,
+                "minSelection": 0,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": null,
+                "specialType": "GIFTWRAPPING",
+                "specialSubtypes": [
+                  "GIFTWRAPPING"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "1771b9f0-fc26-11ee-988e-09340aad1af0:ProductModifier",
+              "modifier": {
+                "modifierId": "1771b9f0-fc26-11ee-988e-09340aad1af0:ProductModifier",
+                "name": "3-Pack Mini Cookie Flavors",
+                "description": null,
+                "image": null,
+                "maxSelection": 3,
+                "minSelection": 3,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": true,
+                "specialType": "MINI_COOKIE_FLAVOR",
+                "specialSubtypes": [
+                  "CALENDAR",
+                  "MINI",
+                  "COOKIE",
+                  "ALLOWS_OPTION_OVERRIDES"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "b57605b0-6d0c-11ee-958e-c55a218b2938:ProductModifier",
+              "modifier": {
+                "modifierId": "b57605b0-6d0c-11ee-958e-c55a218b2938:ProductModifier",
+                "name": "6-Pack Mini Cookie Flavors",
+                "description": null,
+                "image": null,
+                "maxSelection": 6,
+                "minSelection": 6,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": true,
+                "specialType": "MINI_COOKIE_FLAVOR",
+                "specialSubtypes": [
+                  "MINI",
+                  "CALENDAR",
+                  "COOKIE",
+                  "ALLOWS_OPTION_OVERRIDES"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "c1faebe0-9447-11ee-9117-1dc3943b1cec:ProductModifier",
+              "modifier": {
+                "modifierId": "c1faebe0-9447-11ee-9117-1dc3943b1cec:ProductModifier",
+                "name": "$15 - pre set gift card",
+                "description": null,
+                "image": "https://crumbl.video/66046027-ce67-4dde-8868-b40197eec424_Screenshot2024-01-05at2.47.43PM.png",
+                "maxSelection": 0,
+                "minSelection": 0,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": true,
+                "specialType": "GIFTCARD",
+                "specialSubtypes": null,
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "2720ba10-6939-11ea-a23d-97dd35c6738c:ProductModifier",
+              "modifier": {
+                "modifierId": "2720ba10-6939-11ea-a23d-97dd35c6738c:ProductModifier",
+                "name": "Cookie Flavors - Four Pack",
+                "description": null,
+                "image": null,
+                "maxSelection": 4,
+                "minSelection": 4,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": true,
+                "specialType": "COOKIEFLAVOR",
+                "specialSubtypes": [
+                  "LARGE",
+                  "COOKIE",
+                  "CALENDAR",
+                  "ALLOWS_OPTION_OVERRIDES"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "29927900-8dba-11ea-a642-057e115bb405:ProductModifier",
+              "modifier": {
+                "modifierId": "29927900-8dba-11ea-a642-057e115bb405:ProductModifier",
+                "name": "Cookie Flavors - Six Pack",
+                "description": null,
+                "image": null,
+                "maxSelection": 6,
+                "minSelection": 6,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": true,
+                "specialType": "COOKIEFLAVOR",
+                "specialSubtypes": [
+                  "LARGE",
+                  "CALENDAR",
+                  "COOKIE",
+                  "ALLOWS_OPTION_OVERRIDES"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "cf099180-9592-11f0-8d4a-a99c50bbb585:ProductModifier",
+              "modifier": {
+                "modifierId": "cf099180-9592-11f0-8d4a-a99c50bbb585:ProductModifier",
+                "name": "Box Design",
+                "description": null,
+                "image": null,
+                "maxSelection": 1,
+                "minSelection": 0,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": null,
+                "specialType": null,
+                "specialSubtypes": [
+                  "BIRTHDAYBOX"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "6f958890-6d0c-11ee-a81d-15e2adbf32fb:ProductModifier",
+              "modifier": {
+                "modifierId": "6f958890-6d0c-11ee-a81d-15e2adbf32fb:ProductModifier",
+                "name": "12-Pack Mini Cookie Flavors",
+                "description": null,
+                "image": null,
+                "maxSelection": 12,
+                "minSelection": 12,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": true,
+                "specialType": "MINI_COOKIE_FLAVOR",
+                "specialSubtypes": [
+                  "CALENDAR",
+                  "MINI",
+                  "COOKIE",
+                  "ALLOWS_OPTION_OVERRIDES"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            },
+            {
+              "modifierId": "7114c900-694c-11ea-a427-7539c9197316:ProductModifier",
+              "modifier": {
+                "modifierId": "7114c900-694c-11ea-a427-7539c9197316:ProductModifier",
+                "name": "Cookie Flavors - Twelve Pack",
+                "description": null,
+                "image": null,
+                "maxSelection": 12,
+                "minSelection": 12,
+                "minSelectionPerOption": 0,
+                "selectionIncrement": 0,
+                "allowsMultipleOfSameOption": true,
+                "specialType": "COOKIEFLAVOR",
+                "specialSubtypes": [
+                  "LARGE",
+                  "CALENDAR",
+                  "COOKIE",
+                  "ALLOWS_OPTION_OVERRIDES"
+                ],
+                "__typename": "ProductModifier"
+              },
+              "__typename": "ProductSummaryModifier"
+            }
+          ],
+          "options": [
+            {
+              "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride",
+              "option": {
+                "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride",
+                "name": "Dubai Chocolate Cheesecake",
+                "image": "https://crumbl.video/cb29c612-4e99-4528-a96c-cfb00056bc70_DubaiCheesecake_FlyingAerial_TECH.png",
+                "price": 299,
+                "upcharge": 299,
+                "startDate": "2026-03-28T12:00:00.000Z",
+                "endDate": "2026-03-29T04:59:59.999Z",
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": "Secret Menu",
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-28T12:00:00.000Z",
+                    "end": "2026-03-29T04:59:59.999Z",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Chilled - In Cup",
+                  "cookieId": "5562d060-1ef7-11f0-aed8-c79ce534364c:Cookies",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "830",
+                    "perServing": "500",
+                    "servingSize": "125",
+                    "miniTotal": "390",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies",
+              "option": {
+                "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies",
+                "name": "Dubai Chocolate Brownie",
+                "image": "https://crumbl.video/4d8f989a-f339-4812-a626-c3f58af19d7b_DubaiBrownie_FlyingAerial_TECH.png",
+                "price": 299,
+                "upcharge": 299,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Chilled",
+                  "cookieId": "80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "1010",
+                    "perServing": "180",
+                    "servingSize": "40",
+                    "miniTotal": "350",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies",
+              "option": {
+                "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies",
+                "name": "Brookies & Cream Cookie ft. OREO\u00ae",
+                "image": "https://crumbl.video/49c287d0-0c3c-4eea-8086-0f294f77c259_CookiesCreamBrookieCookie_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": "https://crumbl.video/1696b398-8488-49c5-aea3-19252059fbbe_OREOWordmarkLogoCMYK300dpi_withR3.png",
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "630",
+                    "perServing": "120",
+                    "servingSize": "30",
+                    "miniTotal": "280",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies",
+              "option": {
+                "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies",
+                "name": "Cake Batter Blondie Cookie",
+                "image": "https://crumbl.video/6edca3d2-0e4c-4c20-be63-114509c0856a_CakeBatterBlondieCookie_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "660",
+                    "perServing": "131",
+                    "servingSize": "30",
+                    "miniTotal": "180",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie",
+              "option": {
+                "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie",
+                "name": "Carrot Cake Cookie",
+                "image": "https://crumbl.video/6a6b1c63-14a1-447c-91ec-b129bc2c16f7_CarrotCakeCookie_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "900",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "290",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie",
+              "option": {
+                "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie",
+                "name": "Milk Chocolate Chip Cookie",
+                "image": "https://crumbl.video/a5479faa-b292-4f8b-b35a-393fa7ebff3c_MilkChocolateChip_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "680",
+                    "perServing": "131",
+                    "servingSize": "30",
+                    "miniTotal": "170",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies",
+              "option": {
+                "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies",
+                "name": "Pink Sugar Cookie",
+                "image": "https://crumbl.video/6b656251-4810-4771-acf8-c6b2e2e3762c_TheOriginalPinkSugarCookie_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Chilled",
+                  "cookieId": "3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "760",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "270",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie",
+              "option": {
+                "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie",
+                "name": "Cookies & Cream Cookie",
+                "image": "https://crumbl.video/366fbcd1-aaa5-45d6-b643-8da2fb3f7338_ChocolateCrumbftOreo_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "830",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "320",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie",
+              "option": {
+                "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie",
+                "name": "Brownie Batter Cookie",
+                "image": "https://crumbl.video/0f2aa5cb-c20c-42bb-b62b-d0e76ab885f6_BrownieBatterCookie_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "690",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "190",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie",
+              "option": {
+                "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie",
+                "name": "Snickerdoodle Cookie",
+                "image": "https://crumbl.video/59e8277d-8802-4371-a35a-25e31e3fc747_Snickerdoodle_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "4288a660-da63-11e9-b257-d14e3ba804d5:Cookie",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "630",
+                    "perServing": "131",
+                    "servingSize": "30",
+                    "miniTotal": "180",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie",
+              "option": {
+                "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie",
+                "name": "Celebration Cake Cookie",
+                "image": "https://crumbl.video/bdcb9f9d-575f-4c01-9085-9df2ba98a7f5_BirthdayCakeCookie_OverheadAerial_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": "https://crumbl.video/067ff9c3-44b1-499c-bfa5-a560a26856c5_ccclargenosprinkle.png",
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": false,
+                  "servingMethod": "Warm",
+                  "cookieId": "90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "810",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "310",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+              "option": {
+                "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                "name": "i love you",
+                "image": "https://crumbl.video/5741bc81-8ec0-4281-8e72-06dbf29cb5ae_e96dfbde33001ea868e79fbf505004b6.png",
+                "price": 99,
+                "upcharge": 99,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": null,
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": null,
+                  "cookieId": null,
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": null,
+                  "calorieInformation": null,
+                  "allergyInformation": null,
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+              "option": {
+                "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                "name": "happy birthday!",
+                "image": "https://crumbl.video/14279f6a-e2d4-4d5f-bca8-3c411e58ad68_d8e60e9f7b973eafd38f7c8d68df7ce0.png",
+                "price": 99,
+                "upcharge": 99,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": null,
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": null,
+                  "cookieId": null,
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": null,
+                  "calorieInformation": null,
+                  "allergyInformation": null,
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+              "option": {
+                "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                "name": "thank you",
+                "image": "https://crumbl.video/ec4ae066-56e3-4bdf-9fcc-1c5bb530a963_65908d39bbe8f659f6b17622b32bec3d.png",
+                "price": 99,
+                "upcharge": 99,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": null,
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": null,
+                  "cookieId": null,
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": null,
+                  "calorieInformation": null,
+                  "allergyInformation": null,
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+              "option": {
+                "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                "name": "congrats!",
+                "image": "https://crumbl.video/ec42bf5b-4357-498c-a124-8720820dfea2_4c0212c66846e8ac51141a03337b3d8f.png",
+                "price": 99,
+                "upcharge": 99,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": null,
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": null,
+                  "cookieId": null,
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": null,
+                  "calorieInformation": null,
+                  "allergyInformation": null,
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+              "option": {
+                "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                "name": "thinking of you",
+                "image": "https://crumbl.video/10f3f928-3773-4581-b884-eef907ba799f_3cda49995c08de7ccf903e8a4b8cf8e3.png",
+                "price": 99,
+                "upcharge": 99,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": null,
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": null,
+                  "cookieId": null,
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": null,
+                  "calorieInformation": null,
+                  "allergyInformation": null,
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride-mini",
+              "option": {
+                "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride-mini",
+                "name": "Dubai Chocolate Cheesecake",
+                "image": "https://crumbl.video/2a8b3395-6fa5-4d94-b945-cea59cb93662_DubaiCheesecake_FlyingAerial_Mini_TECH.png",
+                "price": 149,
+                "upcharge": 149,
+                "startDate": "2026-03-28T12:00:00.000Z",
+                "endDate": "2026-03-29T04:59:59.999Z",
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": "Secret Menu",
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-28T12:00:00.000Z",
+                    "end": "2026-03-29T04:59:59.999Z",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Chilled - In Cup",
+                  "cookieId": "5562d060-1ef7-11f0-aed8-c79ce534364c:Cookies-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "390",
+                    "perServing": "500",
+                    "servingSize": "125",
+                    "miniTotal": "390",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies-mini",
+              "option": {
+                "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies-mini",
+                "name": "Dubai Chocolate Brownie",
+                "image": "https://crumbl.video/c3d2e3b6-7dd1-4804-85d7-dd8402f8ddab_DubaiBrownie_FlyingAerial_Mini_TECH.png",
+                "price": 149,
+                "upcharge": 149,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Chilled",
+                  "cookieId": "80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "350",
+                    "perServing": "180",
+                    "servingSize": "40",
+                    "miniTotal": "350",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies-mini",
+              "option": {
+                "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies-mini",
+                "name": "Brookies & Cream Cookie ft. OREO\u00ae",
+                "image": "https://crumbl.video/a766cd55-2416-4435-bf2c-14e007670cd7_CookiesCreamBrookieCookie_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": "https://crumbl.video/1696b398-8488-49c5-aea3-19252059fbbe_OREOWordmarkLogoCMYK300dpi_withR3.png",
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "280",
+                    "perServing": "120",
+                    "servingSize": "30",
+                    "miniTotal": "280",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies-mini",
+              "option": {
+                "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies-mini",
+                "name": "Cake Batter Blondie Cookie",
+                "image": "https://crumbl.video/f522b9e5-3377-449f-a429-add5a941199b_CakeBatterBlondieCookie_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "180",
+                    "perServing": "131",
+                    "servingSize": "30",
+                    "miniTotal": "180",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie-mini",
+              "option": {
+                "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie-mini",
+                "name": "Carrot Cake Cookie",
+                "image": "https://crumbl.video/91cbe4b3-62c5-4138-9b44-e090e6379092_CarrotCakeCookie_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": false,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "290",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "290",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie-mini",
+              "option": {
+                "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie-mini",
+                "name": "Milk Chocolate Chip Cookie",
+                "image": "https://crumbl.video/b011316c-01c8-4f4d-bb78-7899800a02ea_MilkChocolateChip_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "170",
+                    "perServing": "131",
+                    "servingSize": "30",
+                    "miniTotal": "170",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies-mini",
+              "option": {
+                "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies-mini",
+                "name": "Pink Sugar Cookie",
+                "image": "https://crumbl.video/64df93f6-9a3f-41ee-860e-fda2b027be95_TheOriginalPinkSugarCookie_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Chilled",
+                  "cookieId": "3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "270",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "270",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Tree Nuts",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": true,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie-mini",
+              "option": {
+                "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie-mini",
+                "name": "Cookies & Cream Cookie",
+                "image": "https://crumbl.video/277f2e59-2038-4dce-9cf7-3e6a7a01441f_ChocolateCrumbftOreo_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "320",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "320",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie-mini",
+              "option": {
+                "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie-mini",
+                "name": "Brownie Batter Cookie",
+                "image": "https://crumbl.video/4b0efb8d-823f-490d-90f7-d7891c7c59d3_BrownieBatterCookie_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "190",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "190",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk, Soy",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": true,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie-mini",
+              "option": {
+                "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie-mini",
+                "name": "Snickerdoodle Cookie",
+                "image": "https://crumbl.video/2f7cebe2-fc65-4cca-9858-f38a7f3f814a_Snickerdoodle_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": null,
+                  "servingMethod": "Warm",
+                  "cookieId": "4288a660-da63-11e9-b257-d14e3ba804d5:Cookie-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "180",
+                    "perServing": "131",
+                    "servingSize": "30",
+                    "miniTotal": "180",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie-mini",
+              "option": {
+                "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie-mini",
+                "name": "Celebration Cake Cookie",
+                "image": "https://crumbl.video/68add7a4-a605-4ac7-b698-191ea503d06a_BirthdayCakeCookie_OverheadAerial_Mini_NoShadow_TECH.png",
+                "price": 0,
+                "upcharge": 0,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": "https://crumbl.video/7688fa9a-0d09-4c56-a06a-c1851d442acb_cccmininosprinkle.png",
+                "availability": [
+                  {
+                    "start": "2026-03-23T00:00:00+00:00",
+                    "end": "2026-03-29T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-03-30T00:00:00+00:00",
+                    "end": "2026-04-05T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  },
+                  {
+                    "start": "2026-04-06T00:00:00+00:00",
+                    "end": "2026-04-12T23:59:59+00:00",
+                    "__typename": "AvailabilityDateRange"
+                  }
+                ],
+                "metadata": {
+                  "isClassicMenu": true,
+                  "allowsSprinkles": false,
+                  "servingMethod": "Warm",
+                  "cookieId": "90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie-mini",
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": false,
+                  "calorieInformation": {
+                    "total": "310",
+                    "perServing": "130",
+                    "servingSize": "30",
+                    "miniTotal": "310",
+                    "__typename": "CookieCalorieInformation"
+                  },
+                  "allergyInformation": {
+                    "dairy": null,
+                    "description": "Wheat, Egg, Milk",
+                    "egg": true,
+                    "milk": true,
+                    "peanut": null,
+                    "sesameSeeds": null,
+                    "soy": null,
+                    "treeNut": null,
+                    "wheat": true,
+                    "__typename": "AllergyInformation"
+                  },
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            },
+            {
+              "optionId": "cfc2cf60-9592-11f0-8d4a-a99c50bbb585:ProductModifierOption",
+              "option": {
+                "optionId": "cfc2cf60-9592-11f0-8d4a-a99c50bbb585:ProductModifierOption",
+                "name": "Birthday Box",
+                "image": "https://crumbl.video/5d763fd9-9c01-4004-b5d4-a950bdacddb5_6pk_BirthdayBox.png",
+                "price": 99,
+                "upcharge": 99,
+                "startDate": null,
+                "endDate": null,
+                "overrideType": null,
+                "tagImage": null,
+                "tagName": null,
+                "prefillQuantity": null,
+                "maxCountPerProduct": null,
+                "maxCountPerOrder": null,
+                "overlayImage": null,
+                "underlayImage": null,
+                "availability": null,
+                "metadata": {
+                  "isClassicMenu": null,
+                  "allowsSprinkles": null,
+                  "servingMethod": null,
+                  "cookieId": null,
+                  "iceCreamId": null,
+                  "soldOut": false,
+                  "estimatedSellInDate": null,
+                  "featuredPartnerLogo": null,
+                  "newRecipeCallout": null,
+                  "calorieInformation": null,
+                  "allergyInformation": null,
+                  "catering": null,
+                  "__typename": "ProductModifierOptionMetadata"
+                },
+                "__typename": "ProductModifierOption"
+              },
+              "__typename": "ProductSummaryOption"
+            }
+          ],
+          "__typename": "ProductSummary"
+        },
+        "products": [
+          {
+            "automaticDiscounts": null,
+            "price": 199,
+            "adjacentProductSavings": null,
+            "soldOut": false,
+            "product": {
+              "productId": "e1657ee0-656c-11ea-9822-c968a31289d6:Products",
+              "specialType": "SINGLE_PRODUCT_SELECTION",
+              "name": "Milk",
+              "slug": null,
+              "description": "Say hello to the ultimate pairing for Crumbl! A smooth, cooling reduced-fat Milk packaged in an 8oz bottle\u2014the perfect touch to add to your cookie order.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/f8ec5ce3-5f3f-4f85-b9e2-9689356b7d2a_Refresh_WholesomeFarms_ChocolateMilk_POS.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 1,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/f8ec5ce3-5f3f-4f85-b9e2-9689356b7d2a_Refresh_WholesomeFarms_ChocolateMilk_POS.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "134d14f0-e947-11ea-a579-bf08553c5e22:ProductCategory",
+                "name": "Extras",
+                "abbreviatedName": null,
+                "highlightTag": null,
+                "sort": 2,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 199,
+            "adjacentProductSavings": null,
+            "soldOut": false,
+            "product": {
+              "productId": "ecfeb410-656c-11ea-9822-c968a31289d6:Products",
+              "specialType": "SINGLE_PRODUCT_SELECTION",
+              "name": "Chocolate Milk",
+              "slug": null,
+              "description": "Savor the velvety delight of Chocolate Milk. Offering 8oz of ultra-pasteurized low-fat milk, and packed with Vitamin A & D, this is the perfect beverage to pair with your cookie order.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/723922ba-4184-4b11-b261-5ce52e234340_Refresh_WholesomeFarms_Milk_POS.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 2,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/723922ba-4184-4b11-b261-5ce52e234340_Refresh_WholesomeFarms_Milk_POS.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "134d14f0-e947-11ea-a579-bf08553c5e22:ProductCategory",
+                "name": "Extras",
+                "abbreviatedName": null,
+                "highlightTag": null,
+                "sort": 2,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 249,
+            "adjacentProductSavings": null,
+            "soldOut": false,
+            "product": {
+              "productId": "f5197f20-6df7-11ea-9790-f7c3eeda3412:Products",
+              "specialType": "SINGLE_PRODUCT_SELECTION",
+              "name": "Crumbl Water",
+              "slug": null,
+              "description": "Quench your thirst with our perfectly chilled 16oz bottle of Crumbl Water, packaged in our eco-friendly 100% recycled bottle.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/137c83a8-41f9-4cd3-bff5-81436044a6db_Refresh_CrumblWater_POS_Pink.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 2,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/137c83a8-41f9-4cd3-bff5-81436044a6db_Refresh_CrumblWater_POS_Pink.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "134d14f0-e947-11ea-a579-bf08553c5e22:ProductCategory",
+                "name": "Extras",
+                "abbreviatedName": null,
+                "highlightTag": null,
+                "sort": 2,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 449,
+            "adjacentProductSavings": null,
+            "soldOut": false,
+            "product": {
+              "productId": "afca32c0-6947-11ea-bf58-cbafc10e432c:Products",
+              "specialType": null,
+              "name": "Single",
+              "slug": "single",
+              "description": "One large gourmet cookie.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/56d59ceb-afb1-40cc-89ba-23ab4bc9136d_SingleSpecialty.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 2,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/56d59ceb-afb1-40cc-89ba-23ab4bc9136d_SingleSpecialty.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "19c7adb0-5296-11ea-a065-8730211ab52d:ProductCategory",
+                "name": "Large Desserts",
+                "abbreviatedName": "Desserts (large)",
+                "highlightTag": null,
+                "sort": 0,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "8195abc0-6ac6-11ea-b02b-8db36db3e6c4:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 499,
+            "adjacentProductSavings": null,
+            "soldOut": false,
+            "product": {
+              "productId": "c00dc9e0-fb86-11ea-b7f2-a7b5e9e9275d:Products",
+              "specialType": null,
+              "name": "Cookie Cutter",
+              "slug": null,
+              "description": "The perfect tool for cutting your cookies. Effortlessly watch as the Cookie Cutter divides your treat into four to share with your friends and family. ",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/c2c521e7-1899-4ee8-96e9-667a0ad88cc4_CookieCutter_Prod.png",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 100,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/c2c521e7-1899-4ee8-96e9-667a0ad88cc4_CookieCutter_Prod.png",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "134d14f0-e947-11ea-a579-bf08553c5e22:ProductCategory",
+                "name": "Extras",
+                "abbreviatedName": null,
+                "highlightTag": null,
+                "sort": 2,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 999,
+            "adjacentProductSavings": null,
+            "soldOut": false,
+            "product": {
+              "productId": "764a4fe0-fb6e-11ee-9867-b5e8473e7b18:Products",
+              "specialType": null,
+              "name": "Mini 3-Pack",
+              "slug": "3-pack-mini",
+              "description": null,
+              "markdownDescription": null,
+              "image": "https://crumbl.video/c16b6760-6a47-4347-ad19-badb78aa136c_Mini3PackSpecialty.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 10,
+              "highlightImageTag": "MINI",
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/c16b6760-6a47-4347-ad19-badb78aa136c_Mini3PackSpecialty.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "3c67d690-1045-11ee-b051-a167385dc632:ProductCategory",
+                "name": "Mini Desserts",
+                "abbreviatedName": "Desserts (mini)",
+                "highlightTag": null,
+                "sort": 1,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "1771b9f0-fc26-11ee-988e-09340aad1af0:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 1449,
+            "adjacentProductSavings": 27.477477477477475,
+            "soldOut": false,
+            "product": {
+              "productId": "53f09e50-1045-11ee-8446-81a9f074ec67:Products",
+              "specialType": null,
+              "name": "Mini 6-Pack",
+              "slug": null,
+              "description": null,
+              "markdownDescription": null,
+              "image": "https://crumbl.video/fcd3b8f5-a85e-4923-bd5d-9bbf1d9c7cf8_Mini6PackSpecialty.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 20,
+              "highlightImageTag": "MINI",
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/fcd3b8f5-a85e-4923-bd5d-9bbf1d9c7cf8_Mini6PackSpecialty.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "3c67d690-1045-11ee-b051-a167385dc632:ProductCategory",
+                "name": "Mini Desserts",
+                "abbreviatedName": "Desserts (mini)",
+                "highlightTag": null,
+                "sort": 1,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "b57605b0-6d0c-11ee-958e-c55a218b2938:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 1500,
+            "adjacentProductSavings": null,
+            "soldOut": false,
+            "product": {
+              "productId": "4c6443d0-a2f2-11ea-1425-116dcb76f6eb:Products",
+              "specialType": "GIFTCARD",
+              "name": "Gift Card",
+              "slug": null,
+              "description": "Delight your friends and family with the gift of Crumbl! Amount only redeemable at Crumbl locations, on crumbl.com, and through the Crumbl App.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/184591d1-7e61-4a12-bb16-575e43cda2fd_GiftCard2.png",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 100,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/184591d1-7e61-4a12-bb16-575e43cda2fd_GiftCard2.png",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "74baa6c0-dd90-11ea-824e-610cb9ef4266:ProductCategory",
+                "name": "Gift Cards",
+                "abbreviatedName": null,
+                "highlightTag": null,
+                "sort": 3,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "c1faebe0-9447-11ee-9117-1dc3943b1cec:ProductModifier",
+                  "options": [],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 1649,
+            "adjacentProductSavings": 8.184855233853005,
+            "soldOut": false,
+            "product": {
+              "productId": "27e5b900-5296-11ea-8a79-7d989e0f5e54:Products",
+              "specialType": null,
+              "name": "4-Pack",
+              "slug": "4-pack",
+              "description": "4 large gourmet cookies.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/2ddf5aa7-2970-410a-becd-0ade106c8e82_4PackSpecialty.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 5,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/2ddf5aa7-2970-410a-becd-0ade106c8e82_4PackSpecialty.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "19c7adb0-5296-11ea-a065-8730211ab52d:ProductCategory",
+                "name": "Large Desserts",
+                "abbreviatedName": "Desserts (large)",
+                "highlightTag": null,
+                "sort": 0,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "2720ba10-6939-11ea-a23d-97dd35c6738c:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 2249,
+            "adjacentProductSavings": 16.518188567186343,
+            "soldOut": false,
+            "product": {
+              "productId": "34390ba0-0cc0-11eb-b74c-e5ef9890786f:Products",
+              "specialType": null,
+              "name": "6-Pack",
+              "slug": "6-pack",
+              "description": "6 large gourmet cookies.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/300638ab-8f49-40d3-8dab-e9e315db8379_6PackSpecialty.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 7,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/300638ab-8f49-40d3-8dab-e9e315db8379_6PackSpecialty.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "19c7adb0-5296-11ea-a065-8730211ab52d:ProductCategory",
+                "name": "Large Desserts",
+                "abbreviatedName": "Desserts (large)",
+                "highlightTag": null,
+                "sort": 0,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "29927900-8dba-11ea-a642-057e115bb405:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "cf099180-9592-11f0-8d4a-a99c50bbb585:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "cfc2cf60-9592-11f0-8d4a-a99c50bbb585:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 2499,
+            "adjacentProductSavings": 37.46246246246246,
+            "soldOut": false,
+            "product": {
+              "productId": "5c9328c0-1045-11ee-ba07-7d45e6f7d8a4:Products",
+              "specialType": null,
+              "name": "Mini 12-Pack",
+              "slug": null,
+              "description": null,
+              "markdownDescription": null,
+              "image": "https://crumbl.video/f82a588c-b08d-46e4-ae77-6c4c47991e38_Mini12PackSpecialty.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 30,
+              "highlightImageTag": "MINI",
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/f82a588c-b08d-46e4-ae77-6c4c47991e38_Mini12PackSpecialty.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "3c67d690-1045-11ee-b051-a167385dc632:ProductCategory",
+                "name": "Mini Desserts",
+                "abbreviatedName": "Desserts (mini)",
+                "highlightTag": null,
+                "sort": 1,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "6f958890-6d0c-11ee-a81d-15e2adbf32fb:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie-mini",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          },
+          {
+            "automaticDiscounts": null,
+            "price": 3599,
+            "adjacentProductSavings": 33.20341499628804,
+            "soldOut": false,
+            "product": {
+              "productId": "ace9c810-6576-11ea-abc1-05defcdd8547:Products",
+              "specialType": null,
+              "name": "12-Pack",
+              "slug": "12-pack",
+              "description": "12 large gourmet cookies.",
+              "markdownDescription": null,
+              "image": "https://crumbl.video/f802091a-6969-4bab-8e02-163c2326d610_12PackSpecialty.jpg",
+              "wideImage": null,
+              "featuredPartnerLogo": null,
+              "sort": 13,
+              "highlightImageTag": null,
+              "highlightTag": null,
+              "dynamicImage": "https://crumbl.video/f802091a-6969-4bab-8e02-163c2326d610_12PackSpecialty.jpg",
+              "boxImages": [],
+              "fromTemplate": null,
+              "productCategory": {
+                "productCategoryId": "19c7adb0-5296-11ea-a065-8730211ab52d:ProductCategory",
+                "name": "Large Desserts",
+                "abbreviatedName": "Desserts (large)",
+                "highlightTag": null,
+                "sort": 0,
+                "tags": null,
+                "__typename": "ProductCategory"
+              },
+              "modifiers": [
+                {
+                  "modifierId": "7114c900-694c-11ea-a427-7539c9197316:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "456d1ba0-2010-11f1-aa9a-11fe6e166009:ProductModifierOptionOverride",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-80b1d970-0668-11f0-80a1-ada6ea9b511f:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-aef35c90-9985-11f0-b9a9-3d7e8fe16579:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-84147630-f5d7-11ec-8b63-15aafd6cd11d:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-b11812a0-c8ed-11e9-bb2f-7bfd075da76f:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-ecf4e7d0-c05f-11e9-933a-07fdcf36242c:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-3c66e610-3496-11ef-8bb9-0544be1ef467:Cookies",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-8c0c55d0-d2ab-11e9-aad0-13aed36b9dff:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-f8f07390-9a49-11eb-ac72-9190a69cef02:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-4288a660-da63-11e9-b257-d14e3ba804d5:Cookie",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "weekly-90d3b850-db03-11e9-ae7a-d967dc3d85da:Cookie",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                },
+                {
+                  "modifierId": "528b3bd0-5296-11ea-a065-8730211ab52d:ProductModifier",
+                  "options": [
+                    {
+                      "optionId": "528e4910-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528ebe40-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "528f3370-5296-11ea-a065-8730211ab52d:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "13e01ed0-9b77-11ea-9294-ef2b19c2ea9a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    },
+                    {
+                      "optionId": "3fd88900-8de7-11ec-bf51-41e53e1f0f2a:ProductModifierOption",
+                      "__typename": "ProductModifierOption"
+                    }
+                  ],
+                  "__typename": "ProductModifier"
+                }
+              ],
+              "modifierConfigurationsWithDependencies": null,
+              "__typename": "Product"
+            },
+            "__typename": "SourceProduct"
+          }
+        ],
+        "businessHours": {
+          "timezone": "America/Chicago",
+          "sourceClosures": [],
+          "openings": [
+            {
+              "open": "2026-03-27T13:00:00+00:00",
+              "close": "2026-03-28T05:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-03-28T13:00:00+00:00",
+              "close": "2026-03-29T05:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-03-30T13:00:00+00:00",
+              "close": "2026-03-31T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-03-31T13:00:00+00:00",
+              "close": "2026-04-01T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-01T13:00:00+00:00",
+              "close": "2026-04-02T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-02T13:00:00+00:00",
+              "close": "2026-04-03T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-03T13:00:00+00:00",
+              "close": "2026-04-04T05:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-04T13:00:00+00:00",
+              "close": "2026-04-05T05:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-06T13:00:00+00:00",
+              "close": "2026-04-07T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-07T13:00:00+00:00",
+              "close": "2026-04-08T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-08T13:00:00+00:00",
+              "close": "2026-04-09T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-09T13:00:00+00:00",
+              "close": "2026-04-10T03:00:00+00:00",
+              "__typename": "BusinessOpening"
+            },
+            {
+              "open": "2026-04-10T13:00:00+00:00",
+              "close": "2026-04-11T05:00:00+00:00",
+              "__typename": "BusinessOpening"
+            }
+          ],
+          "__typename": "BusinessHours"
+        },
+        "__typename": "Source"
+      },
+      "__typename": "PublicQueries"
+    }
+  }
+}
