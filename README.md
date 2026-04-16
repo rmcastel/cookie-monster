@@ -14,7 +14,7 @@ The inspiration for this project was to find out if Crumbl Cookie discontinued t
 
 ```bash
 pip install -r requirements.txt
-playwright install chromium # will need to have [playwright](https://playwright.dev)
+playwright install chromium # will need to have [`playwright`](https://playwright.dev)
 ```
 
 ## Usage
@@ -26,6 +26,8 @@ python main.py           # Full weekly scrape. Note the process runs 4 slugs at 
 ```
 
 ### Folder Structure
+
+```bash
 ├── cookie_monster.db
 ├── data
 │   └── discovery
@@ -49,6 +51,7 @@ python main.py           # Full weekly scrape. Note the process runs 4 slugs at 
     ├── browser.py
     ├── locations.py
     └── menu.py
+```
 
 ## Final Thoughts
 
