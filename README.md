@@ -14,7 +14,7 @@ The inspiration for this project was to find out if Crumbl Cookie discontinued t
 
 ```bash
 pip install -r requirements.txt
-playwright install chromium # will need to have [`playwright`](https://playwright.dev)
+playwright install chromium # will need to have https://playwright.dev
 ```
 
 ## Usage
